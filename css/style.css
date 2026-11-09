@@ -1,0 +1,208 @@
+html {
+    scroll-padding-top: 4rem;
+}
+
+body {
+    margin: 0;
+    font-family: "Trebuchet MS", Verdana, sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #35251e;
+    background-color: #f5eee6;
+}
+
+header {
+    background-color: #332119;
+    color: white;
+    text-align: center;
+    padding: 5.5rem 1rem 2rem;
+    border-bottom: 6px solid #d9ab83;
+}
+
+h1 {
+    font-size: 2.4rem;
+    margin: 0 0 0.5rem;
+}
+
+header p {
+    margin-top: 0;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    background-color: #332119;
+    text-align: center;
+    padding: 0.4rem 0.6rem;
+    border-bottom: 2px solid #d9ab83;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+nav li {
+    margin: 0;
+}
+
+nav a {
+    display: inline-block;
+    font-size: 1rem;
+    padding: 0.4rem 0.65rem;
+    background-color: #d9ab83;
+    color: #332119;
+    border-radius: 999px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: white;
+    color: #332119;
+}
+
+main {
+    max-width: 52rem;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+section {
+    background-color: white;
+    border: 1px solid #dfcbb9;
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 12px #e9dbce;
+}
+
+h2 {
+    display: inline-block;
+    font-size: 1.6rem;
+    background-color: #f0dfcf;
+    color: #332119;
+    padding: 0.3rem 0.7rem;
+    border-radius: 8px;
+}
+
+h3 {
+    color: #78472e;
+    font-size: 1.25rem;
+}
+
+article {
+    border-left: 5px solid #d9ab83;
+    background-color: #faf3ec;
+    padding: 0.5rem 1rem;
+    margin-bottom: 1rem;
+}
+
+ol, ul {
+    padding-left: 2rem;
+}
+
+li {
+    margin-bottom: 0.5rem;
+}
+
+strong {
+    color: #78472e;
+}
+
+figure {
+    margin: 1.5rem 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 1rem auto;
+    border-radius: 8px;
+}
+
+figcaption {
+    color: #6c5548;
+    font-size: 0.9rem;
+    text-align: center;
+    font-style: italic;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.5rem 0;
+}
+
+caption {
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 0.5rem;
+}
+
+th, td {
+    border: 2px solid #dfcbb9;
+    padding: 0.6rem;
+    text-align: left;
+}
+
+thead th {
+    background-color: #f0dfcf;
+}
+
+a {
+    color: #78472e;
+}
+
+a:hover {
+    color: #9c4a28;
+}
+
+a:focus-visible {
+    outline: 3px solid #9c4a28;
+    outline-offset: 2px;
+}
+
+footer {
+    background-color: #332119;
+    color: white;
+    text-align: center;
+    padding: 1.5rem 1rem;
+}
+
+footer a {
+    color: #f1c8a5;
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.35rem;
+}
+
+
+@media (max-width: 35rem) {
+    html {
+        scroll-padding-top: 6.5rem;
+    }
+
+    header {
+        padding-top: 8rem;
+    }
+}
+
+@media (max-width: 21rem) {
+    html {
+        scroll-padding-top: 9rem;
+    }
+
+    header {
+        padding-top: 10.5rem;
+    }
+}

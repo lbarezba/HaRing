@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HaRing</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header id="inicio">
+        <h1>HaRing, un anillo que se comunica a través del tacto</h1>
+        <p>CHI 2026</p>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#dispositivo">Dispositivo</a>
+                </li>
+                <li>
+                    <a href="#funcionamiento">Funcionamiento</a>
+                </li>
+                <li>
+                    <a href="#beneficios">Historia</a>
+                </li>
+                <li>
+                    <a href="#evolucion">Evolución</a>
+                </li>
+                <li>
+                    <a href="#fuentes">Fuentes</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="dispositivo">
+            <h2>¿Qué es HaRing?</h2>
+            <figure>
+                <img src="img/HaRing.png" alt="Ilustración del anillo HaRing en el dedo índice, con un detalle de su matriz de puntos y un ejemplo de uso con un visor de realidad virtual." width="1202" height="385">
+                <figcaption>Imagen del proyecto HaRing.</figcaption>
+            </figure>
+            <p>HaRing es un <strong>prototipo de anillo háptico</strong> presentado en la conferencia CHI 2026. Sus autores son <strong>Suheon Nam, Juhyung Son, Seungmoon Choi y Chaeyong Park</strong>, investigadores vinculados a POSTECH y Korea University.</p>
+            <p>El anillo se lleva en el dedo índice y tiene <strong>24 pequeños puntos móviles</strong>, colocados en una matriz de 4x6. Al pasar el pulgar por esa superficie, la persona puede notarlos.</p>
+            <p>Conviene aclarar que, por ahora, <strong>se trata de un dispositivo de investigación</strong>, todavía no se comercializa.</p>
+        </section>
+
+        <section id="funcionamiento">
+            <h2>¿Cómo funciona?</h2>
+            <p>El funcionamiento es bastante fácil de entender. El mecanismo hace que algunos puntos sobresalgan y otros no, formando un relieve que se puede reconocer al tocarlo.</p>
+            <ol>
+                <li>La persona se coloca el anillo en el dedo índice.</li>
+                <li>El dispositivo activa los puntos necesarios para formar un patrón.</li>
+                <li>Con el pulgar, la persona toca esos puntos e interpreta el mensaje.</li>
+            </ol>
+            <figure>
+                <img src="img/funcionamiento.png"
+                     alt="Esquema de la unidad de control, vista desmontada del anillo y foto del prototipo colocado en el dedo índice."
+                     width="1157" height="303">
+                <figcaption>Esquema del prototipo.</figcaption>
+            </figure>
+            <p>Por ejemplo, una determinada combinación de puntos puede indicar que hay que girar a la derecha. Otra puede representar la orden de reproducir o pausar un contenido. No es necesario que el anillo tenga una pantalla: la información llega a través del contacto con el dedo.</p>
+        </section>
+
+        <section id="beneficios">
+            <h2>¿Qué le diferencia?</h2>
+            <p>HaRing propone una forma distinta de comunicarnos con un dispositivo. Normalmente recibimos información mirando una pantalla, escuchando un sonido o notando una vibración.</p>
+
+            <article>
+                <h3>Accesibilidad</h3>
+                <p>Sirve para diseñar interfaces que no dependan únicamente de la información visual. Facilita el acceso a la información para personas con discapacidad visual.</p>
+            </article>
+            <article>
+                <h3>Permite apartar la vista de la pantalla</h3>
+                <p>En situaciones en las que estamos ocupados mirando otra cosa, recibir una indicación por el tacto puede ser útil. Por ejemplo, al seguir una ruta a pie no haría falta consultar continuamente un mapa para recibir ciertas señales.</p>
+            </article>
+
+            <article>
+                <h3>Se puede utilizar con una sola mano</h3>
+                <p>El pulgar toca el anillo que está en el índice de esa misma mano. Es una manera de recibir información sin tener que sujetar el teléfono ni usar un teclado.</p>
+            </article>
+
+        </section>
+
+        <section id="evolucion">
+            <h2>¿De dónde viene esta idea?</h2>
+            <p>HaRing no es el primer anillo tecnológico.<strong> Lo que le diferencia es la manera de comunicar dicha información.</strong> </p>
+            <p>Podemos compararlo con dispositivos anteriores:</p>
+
+            <ol>
+                <li><strong>2014: Ringly.</strong> Era un anillo que avisaba de llamadas y mensajes mediante vibraciones. Permitía saber que había llegado una notificación, pero no mostraba ninguna otra información.</li>
+                <li><strong>Otros dispositivos hápticos.</strong> Se han investigado distintas maneras de notificar información a través del tacto.</li>
+                <li><strong>2026: HaRing.</strong> Su propuesta es utilizar 24 puntos que cambian de posición para formar patrones que podemos distinguir con el tacto. El avance está en la cantidad y el tipo de información que se intenta comunicar.</li>
+            </ol>
+
+            <figure>
+                <img src="img/patrones.png"
+                     alt="Dos grupos de 12 patrones de puntos en relieve: a la izquierda, símbolos como pausa y reproducción; a la derecha, indicaciones como girar a la derecha o detenerse."
+                     width="1451" height="442">
+                <figcaption>Algunos de los patrones creados por los investigadores para representar órdenes y direcciones.</figcaption>
+            </figure>
+
+        </section>
+
+        <section id="resultados">
+            <h2>Resultados</h2>
+            <p>Los investigadores hicieron varias pruebas para comprobar si las personas podían reconocer los patrones. En una de ellas participaron 16 personas que identificaron direcciones, símbolos, números y letras. Más adelante estudiaron también qué ocurría cuando se practicaba durante un tiempo.</p>
+
+            <table>
+                <caption>Resultados de las pruebas</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Prueba</th>
+                        <th scope="col">Resultado</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Reconocimiento de direcciones</td>
+                        <td>98,3 %</td>
+                    </tr>
+                    <tr>
+                        <td>Reconocimiento de símbolos</td>
+                        <td>81,1 %</td>
+                    </tr>
+                    <tr>
+                        <td>Reconocimiento de letras después del aprendizaje</td>
+                        <td>93,2 %</td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </section>
+
+        <section id="aplicaciones">
+    <h2>Utilidades y accesibilidad</h2>
+
+    <h3>¿Cómo mejora HaRing la accesibilidad?</h3>
+    <p>HaRing permite recibir información a través del tacto, sin depender de una pantalla o de sonidos. Desde el punto de vista de la Interacción Persona-Ordenador, propone una forma alternativa de comunicarse con la tecnología.</p>
+    <p>Este dispositivo mejora la accesibilidad de diversas maneras:</p>
+    <ul>
+        <li>
+            <strong>Discapacidad visual:</strong> recibir indicaciones y reconocer patrones sin necesidad de una pantalla.
+        </li>
+        <li>
+            <strong>Discapacidad auditiva:</strong> recibir avisos mediante el tacto en lugar de sonidos.
+        </li>
+        <li>
+            <strong>Uso sencillo e intuitivo:</strong> consultar información simplemente tocando el dispositivo.
+        </li>
+    </ul>
+
+    <p>HaRing se relaciona con el <strong>diseño universal</strong>, ya que busca ofrecer otra forma de acceder a la información. Sin embargo, todavía es un prototipo y necesita más pruebas para comprobar su utilidad en personas con discapacidad.</p>
+            <figure>
+                <img src="img/aplicaciones.png"
+                     alt="Cuatro escenas de uso de HaRing: seguir una ruta a pie, seleccionar una opción en un menú de realidad virtual, recibir un aviso de tiempo durante una presentación y pilotar un dron."
+                     width="813" height="610">
+                <figcaption>Imágenes de posibles usos de HaRing.</figcaption>
+            </figure>
+        </section>
+
+        <section id="fuentes">
+            <h2>Fuentes de información</h2>
+            <ul>
+                <li><a href="https://axis.korea.ac.kr/publications/2026_CHI_HaRing">Página oficial de HaRing</a>.</li>
+                <li><a href="https://doi.org/10.1145/3772318.3791663">Artículo de HaRing</a>.</li>
+            </ul>
+            <p>Imágenes utilizadas en esta página pertenecen al material difundido por AXIS Lab.</p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Trabajo de Fundamentos de Interacción Persona-Ordenador. HaRing (2026)</p>
+        <p><a href="#inicio">Volver al inicio</a></p>
+    </footer>
+</body>
+</html>
